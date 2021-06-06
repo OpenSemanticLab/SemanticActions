@@ -30,7 +30,7 @@ LABEL
 
 RELATED_ARTICLE
 
---><tr><td>'''Related articles'''</td><td>{{{field|RELATED_ARTICLE|input type=tokens|values from concept=Pages_Related_to_Actions_autocomplete|list}}}</td></tr><!--
+--><tr><td>'''Related articles'''</td><td>{{{field|RELATED_ARTICLE|input type=tokens|values from concept=Pages related to Actionable Form autocomplete|list}}}</td></tr><!--
 
 DETAILS
 
