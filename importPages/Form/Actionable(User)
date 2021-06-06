@@ -14,7 +14,7 @@ SUMMARY
 
 ACTION_STATUS
 
---><tr><td>'''Status'''</td><td>{{{field|ACTION_STATUS|input type=radiobutton|property=Action status|default=Open|mandatory|show on select=Closed=>ClosedStatus}}}</td></tr><!--
+--><tr><td>'''Status'''</td><td>{{{field|ACTION_STATUS|input type=radiobutton|property=Action status|values=Open,Closed|default=Open|mandatory|show on select=Closed=>ClosedStatus}}}</td></tr><!--
 
 DUE_DATE
 
