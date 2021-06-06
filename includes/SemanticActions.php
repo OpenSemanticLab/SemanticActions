@@ -25,6 +25,7 @@ class SemanticActions {
 				"Category:Actionable" => "Category/Actionable",
 				"Category:Label" => "Category/Label",
 				"Category:Page required for Actionable Extension" => "Category/Page required for Actionable Extension",
+				"Concept:Pages related to Actionable Form autocomplete" => "Concept/Pages related to Actionable Form autocomplete",
 				"Form:Actionable" => "Form/Actionable(" . $assigneeVersion . ")",
 				"Form:Label" => "Form/Label",
 				"Property:Action ID" => "Property/Action ID",
