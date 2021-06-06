@@ -84,6 +84,7 @@ span.actionable_button.drilldown_action a {
 .actionable_button.search_action {
 	background-color: #0000ff; /* Blue*/
 	border: 2px solid #ffffff; /* White*/
+	color: #ffffff; /* White*/
 	margin: -1px;
 	padding: 0px;
 }
@@ -104,6 +105,8 @@ span.actionable_button.drilldown_action a {
 }
 .actionable_button.related_article {
 	border-radius: 4px;
+	background-color: #d5d5d5; /*brighter gray to make blue text visible*/
+	border-color: #d5d5d5;
 }
 .actionable_button a {
 	font-size: 10px;
