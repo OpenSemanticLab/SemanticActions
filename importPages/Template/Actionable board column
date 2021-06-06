@@ -72,7 +72,7 @@ IF THIS IS FOR A COLUMN WITH A LABEL HEADER, QUERY FOR ACTIONS WITH THAT LABEL
 
 -->{{#ask: {{#var:commonQueryPart}} [[Label::{{{3}}}]]
 |?Action ID
-|?Due date
+|?Due date{{#ifeq: {{CONTENTLANGUAGE}}|de|#-F[Y/m/d]<!-- necessary for german wiki -->|}} 
 |?Assigned to
 |?Label
 |?Related article
@@ -89,7 +89,7 @@ ELSE QUERY FOR ACTIONS WITHOUT ANY OF THE HEADER LABELS, ONLY IF THERE ARE ANY S
 
 -->{{#if: {{#var:actionsNotRepresented}}|{{#ask: {{#arraymap:{{#var:actionsNotRepresented}}|,|VAR|{{#var:commonQueryPart}} [[VAR]]| OR }}
 |?Action ID
-|?Due date
+|?Due date{{#ifeq: {{CONTENTLANGUAGE}}|de|#-F[Y/m/d]<!-- necessary for german wiki -->|}} 
 |?Assigned to
 |?Label
 |?Related article
