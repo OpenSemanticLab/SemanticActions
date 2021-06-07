@@ -42,6 +42,7 @@ class SemanticActions {
 				"Property:Related article" => "Property/Related article",
 				"Property:Resolution" => "Property/Resolution",
 				"Property:Summary" => "Property/Summary",
+				"Property:Details" => "Property/Details",
 			],
 
 			// the directory where all paths in your list of pages are based from
