@@ -82,9 +82,8 @@ span.actionable_button.drilldown_action a {
 	padding: 0px;
 }
 .actionable_button.search_action {
-	background-color: #0000ff; /* Blue*/
+	background-color: #d5d5d5; /* Light Gray*/
 	border: 2px solid #ffffff; /* White*/
-	color: #ffffff !important;; /* White*/
 	margin: -1px;
 	padding: 0px;
 }
