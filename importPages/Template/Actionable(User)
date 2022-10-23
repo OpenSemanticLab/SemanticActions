@@ -50,6 +50,9 @@ SET SEMANTIC PROPERTIES
 |Resolution={{{RESOLUTION|}}}
 |Details={{{DETAILS|}}}
 }}<!--
+ENFORCE LABEL NAMESPACE ALSO FOR AD-HOC CREATED LABELS
+-->
+{{#arraymap:{{{LABEL|}}}|,|x| {{#set:Label=Label:{{PAGENAME:x}} }} }}<!--
 
 DISPLAY DATA
 
