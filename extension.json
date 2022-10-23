@@ -28,6 +28,12 @@
 				"SemanticActions.css"
 			],
 			"position": "bottom"
+		},
+		"ext.SemanticActions": {
+			"scripts": [
+				"SemanticActions.js"
+			],
+			"position": "bottom"
 		}
 	},
 	"ResourceFileModulePaths": {
