@@ -20,8 +20,18 @@ table.actionable_board {
 	border: 1px solid black;
 	border-collapse: collapse;
 	margin-top: 10px;
-	width: 322px;
+	width: 100%;
 }
+
+table.actionable_board_outer{
+	width: 100%;
+	display: block;
+	max-width: fit-content;
+	margin: 0 auto;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
 .actionable_board th {
 	background-color: #d5d5d5;
 	border: 1px solid black;
@@ -38,12 +48,14 @@ table.actionable_board_action td {
 }
 table.actionable_board_action {
 	display: block;
-	height: 700px;
+	height: auto;
+	max-height: 700px;
 	overflow-y: scroll;
 }
 .actionable_board p {
 	margin: 1px 0;
 }
+.actionable_state_highlight { height: 1.5em; line-height: 1.2em; }
 .actionable_button {
 	background-color: #666666; /* Gray*/
 	border: 2px solid #666666; /* Gray*/
@@ -106,6 +118,10 @@ span.actionable_button.drilldown_action a {
 	border-radius: 4px;
 }
 .actionable_button a {
+	font-size: 10px;
+	color: white;
+}
+.actionable_button a:visited {
 	font-size: 10px;
 	color: white;
 }
