@@ -10,7 +10,7 @@ BUTTONS TO SEARCH AND ADD ACTIONS
 
 BUILD TABLE
 
---><table class="actionable_board">
+--><table class="actionable_board actionable_board_outer">
 <tr><th colspan="{{#var:colspan}}">{{{1|Open}}}</th></tr>
 <tr>{{#ifeq:{{{4|}}}|True|<!--
 
