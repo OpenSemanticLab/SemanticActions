@@ -34,7 +34,7 @@ RELATED_ARTICLE
 
 DETAILS
 
---><tr><td>'''Details'''</td><td>{{{field|DETAILS|input type=textarea|rows=4|autogrow|editor=wikieditor|class=toolbarOnTop}}}</td></tr><!--
+--><tr><td>'''Details'''</td><td>{{{field|DETAILS|input type=textarea|rows=4|autogrow|editor=visualeditor|class=toolbarOnTop}}}</td></tr><!--
 
 RESOLUTION
 
