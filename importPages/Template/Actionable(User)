@@ -39,7 +39,7 @@ END DETECT AND SET ABSENCE OF DEFINED LABELS
 SET SEMANTIC PROPERTIES
 
 -->{{#set:
-|Action ID={{#sub:{{FULLPAGENAME}}|7|0}} 
+<!-- |Action ID={{#sub:{{FULLPAGENAME}}|7|0}}  -->
 |Summary={{{SUMMARY|}}}
 |Assigned to={{#arraymap:{{{ASSIGNED_TO|}}}|,|x|User:x|,}}|+sep=,
 |Action status={{{ACTION_STATUS|Open}}}
@@ -102,7 +102,7 @@ DETAILS
 
 APPLY CATEGORY
 
--->[[Category:Actionable]]<!--
+-->[[Category:Actionable]]{{#set:|HasEditForm=Form:Actionable}}<!--
 
 FREE TEXT APPEARS BELOW
 

@@ -1,4 +1,4 @@
-<includeonly><tr><td>{{#ifeq:{{{#userparam}}}|Edit|{{#formlink: form=Actionable|link text={{#show:{{{1|}}}|?Summary}}|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}|<small>{{#formlink: form=Actionable|link text=[edit]|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}</small> [[{{{1|}}}|{{#show:{{{1|}}}|?Summary}}]]}}<!--
+<includeonly><tr><td>{{#ifeq:{{{#userparam}}}|Edit|{{#formlink: form={{#replace:{{{7|Actionable}}}|Form:|}}|link text={{#show:{{{1|}}}|?Summary}}|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}|<small>{{#formlink: form={{#replace:{{{7|Actionable}}}|Form:|}}|link text=[edit]|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}</small> [[{{{1|}}}|{{#show:{{{1|}}}|?Summary}}]]}}<!--
 
 LABELS
 
@@ -6,7 +6,7 @@ LABELS
 
 RELATED ARTICLES
 
--->{{#if:{{{6|}}}|<br />{{#arraymap:{{{6|}}}|,|x|<span class="actionable_button related_article">[[x]]</span>|}}|}}<!--
+-->{{#if:{{{6|}}}|<br />{{#arraymap:{{{6|}}}|,|x|<span class="actionable_button related_article">[[x|{{#ask: [[x]]|?Display title of|mainlabel=-|headers=hide|format=plainlist}}]]</span>|}}|}}<!--
 
 BEGIN ID, DUE_DATE, ASSIGNED_TO all in one row
 
@@ -38,6 +38,7 @@ END ID, DUE_DATE, ASSIGNED_TO all in one row
 <nowiki>{{{4|}}}</nowiki> = Assigned to<br />
 <nowiki>{{{5|}}}</nowiki> = Label<br />
 <nowiki>{{{6|}}}</nowiki> = Related article<br />
+<nowiki>{{{7|}}}</nowiki> = Edit form<br />
 <nowiki>{{{#userparam}}}</nowiki> = View or Edit (do you want action links to go to the view or edit mode?)<br />
 
 [[Category:Page required for Actionable Extension]]</noinclude>

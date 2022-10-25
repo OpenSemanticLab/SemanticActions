@@ -52,7 +52,7 @@ BUILD TABLE
 
 COLUMN HEADER
 
---><tr style="height:36px;"><th>{{#if:{{{3|}}}|{{Actionable board column label button|{{{3|}}}|{{#var:newActionDefaultRelatedArticles}}}}|None of these labels}}<span id="{{{3}}}_action_number" style="float:right;">{{#if:{{{3|}}}|<!--
+--><tr style="height:36px;"><th>{{#if:{{{3|}}}|{{Actionable board column label button|{{{3|}}}|{{#var:newActionDefaultRelatedArticles}}|{{{8|}}}|{{{9|}}}}}|None of these labels}}<span id="{{{3}}}_action_number" style="float:right;">{{#if:{{{3|}}}|<!--
 
 IF THIS IS FOR A COLUMN WITH A LABEL HEADER, QUERY FOR ACTIONS WITH THAT LABEL
 
@@ -76,6 +76,7 @@ IF THIS IS FOR A COLUMN WITH A LABEL HEADER, QUERY FOR ACTIONS WITH THAT LABEL
 |?Assigned to
 |?Label
 |?Related article
+|?HasEditForm
 |format=template
 |template=Actionable board row
 |userparam={{{5|View}}}
@@ -93,6 +94,7 @@ ELSE QUERY FOR ACTIONS WITHOUT ANY OF THE HEADER LABELS, ONLY IF THERE ARE ANY S
 |?Assigned to
 |?Label
 |?Related article
+|?HasEditForm
 |format=template
 |template=Actionable board row
 |userparam={{{5|View}}}
@@ -118,5 +120,7 @@ UNSET VARIABLES
 <nowiki>{{{5}}}</nowiki> = View or Edit (do you want action links to go to the view or edit mode?)<br />
 <nowiki>{{{6}}}</nowiki> = List of default Related articles for new actions created from links in this table<br />
 <nowiki>{{{7}}}</nowiki> = List of Assignees (only show actions with all of these Assignees)<br />
+<nowiki>{{{8}}}</nowiki> = Edit form for new actions<br />
+<nowiki>{{{9}}}</nowiki> = Edit template for new actions<br />
 
 [[Category:Page required for Actionable Extension]]</noinclude>
