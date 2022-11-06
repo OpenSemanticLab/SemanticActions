@@ -11,7 +11,6 @@ $(document).ready(function () {
     //Sets column names as IDs and sets the class for sortable in the column <tbody>. If there is no <tbody> it adds one with id and class.
     $(".actionable_board_action").each((index, element) => {
         $table = $(element);
-        console.log($table);
         var label = removeNamespace($table.attr("id"));
 
         if ($table.children('tbody').length === 0) {

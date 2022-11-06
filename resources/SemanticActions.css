@@ -391,3 +391,11 @@ span.actionable_button.drilldown_action a {
 	border-color:#000000;
 	color:#ffffff !important;
 }
+
+/* for drag-and-drop support */
+.connectedSortable {
+	min-height: 100%; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	width: 100%;
+}
