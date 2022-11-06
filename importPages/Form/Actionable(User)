@@ -1,7 +1,7 @@
 <noinclude><span class="actionable_button add_action">{{#formlink:form=Actionable|link text=Add an action|link type=text|query string=|new window}}</span>
 
 [[Category:Page required for Actionable Extension]]
-</noinclude><includeonly>{{{info|edit title=Editing|create title=Creating action|page name={{OslTemplate:ID/UUID |namespace=Action}}}}}
+</noinclude><includeonly>{{{info|edit title=Editing|create title=Creating action|page name={{OslTemplate:ID/UUID |namespace=Action}} }}}
 {{{for template|Actionable}}}<!--
 
 BEGIN TABLE FOR META DATA
