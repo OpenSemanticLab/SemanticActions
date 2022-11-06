@@ -48,7 +48,7 @@ SET SEMANTIC PROPERTIES
 |Related article={{{RELATED_ARTICLE|}}}|+sep=,
 |Label={{{LABEL|}}}|+sep=,
 |Resolution={{{RESOLUTION|}}}
-|Details={{{DETAILS|}}}
+<!-- |Details={{{DETAILS|}}} -->
 }}<!--
 ENFORCE LABEL NAMESPACE ALSO FOR AD-HOC CREATED LABELS
 -->
