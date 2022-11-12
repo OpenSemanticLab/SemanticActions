@@ -96,7 +96,7 @@ DETAILS
 
 -->{{#if:{{{DETAILS|}}}|<div style="clear:both;"></div>
 
-'''{{int:sa-details}:'''
+'''{{int:sa-details}}:'''
 
 {{{DETAILS|}}}|}}<!--
 
