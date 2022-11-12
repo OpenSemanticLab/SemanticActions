@@ -1,4 +1,4 @@
-<includeonly><span class="actionable_button add_action">{{#formlink:form={{{2|Actionable}}}|link text={{int:sa-add-action}}|link type=text|query string={{{3|Actionable}}}[RELATED_ARTICLE]={{urlencode:{{{1|}}}}}|new window}}</span></includeonly><noinclude><!--
+<includeonly><span class="actionable_button add_action">{{#formlink:form={{#if:{{{2|}}}|{{{2}}}|Actionable}}|link text={{int:sa-add-action}}|link type=text|query string={{#if:{{{3|}}}|{{{3}}}|Actionable}}[RELATED_ARTICLE]={{urlencode:{{{1|}}}}}&returnto={{FULLPAGENAME}}|reload}}</span></includeonly><noinclude><!--
 
 -->This template adds a button with a link to add an action. You can optionally include a parameter to define the Related article(s) pre-populated in the action form.
 
