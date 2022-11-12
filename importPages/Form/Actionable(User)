@@ -1,7 +1,7 @@
-<noinclude><span class="actionable_button add_action">{{#formlink:form=Actionable|link text=Add an action|link type=text|query string=|new window}}</span>
+<noinclude><span class="actionable_button add_action">{{#formlink:form=Actionable|link text={{int:sa-create-action}}|link type=text|query string=|new window}}</span>
 
 [[Category:Page required for Actionable Extension]]
-</noinclude><includeonly>{{{info|edit title=Editing|create title=Creating action|page name=Action:<unique number;start=1>}}}
+</noinclude><includeonly>{{{info|edit title={{int:sa-edit-title}}|create title={{int:sa-create-title}}|page name=Action:<unique number;start=1>}}}
 {{{for template|Actionable}}}<!--
 
 BEGIN TABLE FOR META DATA
@@ -10,35 +10,35 @@ BEGIN TABLE FOR META DATA
 
 SUMMARY
 
---><tr><td>'''Action'''</td><td>{{{field|SUMMARY|input type=textarea|rows=1|autogrow|mandatory}}}</td></tr><!--
+--><tr><td>'''{{int:sa-action}}'''</td><td>{{{field|SUMMARY|input type=textarea|rows=1|autogrow|mandatory}}}</td></tr><!--
 
 ACTION_STATUS
 
---><tr><td>'''Status'''</td><td>{{{field|ACTION_STATUS|input type=radiobutton|property=Action status|default=Open|mandatory|show on select=Closed=>ClosedStatus}}}</td></tr><!--
+--><tr><td>'''{{int:sa-status}}'''</td><td>{{{field|ACTION_STATUS|input type=radiobutton|property=Action status|default=Open|mandatory|show on select=Closed=>ClosedStatus}}}</td></tr><!--
 
 DUE_DATE
 
---><tr><td>'''Due'''</td><td>{{{field|DUE_DATE|input type=datepicker|default=now}}}</td></tr><!--
+--><tr><td>'''{{int:sa-due}}'''</td><td>{{{field|DUE_DATE|input type=datepicker|default=now}}}</td></tr><!--
 
 ASSIGNED_TO
 
---><tr><td>'''Actionees'''</td><td>{{{field|ASSIGNED_TO|input type=tokens|values from namespace=User|list}}}</td></tr><!--
+--><tr><td>'''{{int:sa-actionees}}'''</td><td>{{{field|ASSIGNED_TO|input type=tokens|values from namespace=User|list}}}</td></tr><!--
 
 LABEL
 
---><tr><td>'''[[:Category:Label|<span style="color: #ffffff;">Labels</span>]]'''</td><td>{{{field|LABEL|input type=tokens|namespace=Label|values from namespace=Label|mapping property=Alias|list}}}</td></tr><!--
+--><tr><td>'''[[:Category:Label|<span style="color: #ffffff;">{{int:sa-labels}}</span>]]'''</td><td>{{{field|LABEL|input type=tokens|namespace=Label|values from namespace=Label|mapping property=Alias|list}}}</td></tr><!--
 
 RELATED_ARTICLE
 
---><tr><td>'''Related articles'''</td><td>{{{field|RELATED_ARTICLE|input type=tokens|values from concept=Pages related to Actionable Form autocomplete|list}}}</td></tr><!--
+--><tr><td>'''{{int:sa-related-articles}}'''</td><td>{{{field|RELATED_ARTICLE|input type=tokens|values from concept=Pages related to Actionable Form autocomplete|list}}}</td></tr><!--
 
 DETAILS
 
---><tr><td>'''Details'''</td><td>{{{field|DETAILS|input type=textarea|rows=4|autogrow|editor=visualeditor|class=toolbarOnTop}}}</td></tr><!--
+--><tr><td>'''{{int:sa-details}}'''</td><td>{{{field|DETAILS|input type=textarea|rows=4|autogrow|editor=visualeditor|class=toolbarOnTop}}}</td></tr><!--
 
 RESOLUTION
 
---><tr id="ClosedStatus"><td>'''Resolution'''</td><td>{{{field|RESOLUTION|input type=textarea|rows=4|autogrow|editor=wikieditor|class=toolbarOnTop}}}</td></tr></div><!--
+--><tr id="ClosedStatus"><td>'''{{int:sa-resolution}}'''</td><td>{{{field|RESOLUTION|input type=textarea|rows=4|autogrow|editor=wikieditor|class=toolbarOnTop}}}</td></tr><!--
 
 --></table><!--
 

@@ -1,7 +1,27 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": ["Daren Welsh", "Simon Stier"]
 	},
 	"sa-desc": "An action tracking system for a Semantic MediaWiki",
-	"sa-name": "Semantic Actions"
+	"sa-name": "Semantic Actions",
+	"sa-create-action": "Add an action",
+	"sa-create-action-with-label": "Create a new action with label",
+	"sa-search-action": "Search actions",
+	"sa-edit": "edit",
+	"sa-edit-title": "Editing",
+	"sa-create-title": "Creating action",
+	"sa-action": "Action",
+	"sa-status": "Status",
+	"sa-due": "Due",
+	"sa-actionees": "Actionees",
+	"sa-labels": "Labels",
+	"sa-related-articles": "Related articles",
+	"sa-details": "Details",
+	"sa-resolution": "Resolution",
+	"sa-label-text": "Label text",
+	"sa-label-color": "Color",
+	"sa-label-edit-title": "Editing",
+	"sa-label-create-title": "Creating action",
+	"sa-create-label-page": "Create a page for this label to customize its color",
+	"sa-create-label": "Add a label"
 }

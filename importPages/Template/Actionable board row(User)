@@ -1,4 +1,4 @@
-<includeonly><tr><td>{{#ifeq:{{{#userparam}}}|Edit|{{#formlink: form=Actionable|link text={{#show:{{{1|}}}|?Summary}}|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}|<small>{{#formlink: form=Actionable|link text=[edit]|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}</small> [[{{{1|}}}|{{#show:{{{1|}}}|?Summary}}]]}}<!--
+<includeonly><tr><td>{{#ifeq:{{{#userparam}}}|Edit|{{#formlink: form=Actionable|link text={{#show:{{{1|}}}|?Summary}}|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}|<small>{{#formlink: form=Actionable|link text=[{{int:sa-edit}}]|query string=|target={{{1|}}}|window|reload|returnto={{FULLPAGENAMEE}} }}</small> [[{{{1|}}}|{{#show:{{{1|}}}|?Summary}}]]}}<!--
 
 LABELS
 
