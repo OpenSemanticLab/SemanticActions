@@ -41,7 +41,7 @@ SET SEMANTIC PROPERTIES
 -->{{#set:
 <!-- |Action ID={{#sub:{{FULLPAGENAME}}|7|0}}  -->
 |Summary={{{SUMMARY|}}}
-|Assigned to={{#arraymap:{{{ASSIGNED_TO|}}}|,|x|User:x|,}}|+sep=,
+|Assigned to={{#arraymap:{{{ASSIGNED_TO|}}}|,|x|User:{{#replace:x|User:|}}|,}}|+sep=,
 |Action status={{{ACTION_STATUS|Open}}}
 |Due date={{{DUE_DATE|}}}
 |Due date sort={{{DUE_DATE|January 01 3000}}}
@@ -72,7 +72,7 @@ DUE_DATE
 
 ASSIGNED_TO
 
---><tr><td>'''{{int:sa-actionees}}'''</td><td>{{#if:{{{ASSIGNED_TO|}}}|{{#arraymap:{{{ASSIGNED_TO|}}}|,|x|[[User:x|x]]|,}}</td></tr>|}}<!--
+--><tr><td>'''{{int:sa-actionees}}'''</td><td>{{#if:{{{ASSIGNED_TO|}}}|{{#arraymap:{{{ASSIGNED_TO|}}}|,|x|[[User:{{#replace:x|User:|}}]]|,}}</td></tr>|}}<!--
 
 LABEL
 
@@ -96,7 +96,7 @@ DETAILS
 
 -->{{#if:{{{DETAILS|}}}|<div style="clear:both;"></div>
 
-'''{{int:sa-details}:'''
+'''{{int:sa-details}}:'''
 
 {{{DETAILS|}}}|}}<!--
 
