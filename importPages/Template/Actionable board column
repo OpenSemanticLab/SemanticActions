@@ -77,6 +77,7 @@ IF THIS IS FOR A COLUMN WITH A LABEL HEADER, QUERY FOR ACTIONS WITH THAT LABEL
 |?Label
 |?Related article
 |?HasEditForm
+|?HasDescription
 |format=template
 |template=Actionable board row
 |userparam={{{5|View}}}
