@@ -21,8 +21,7 @@ DUE_DATE
 --><tr><td>'''{{int:sa-due}}'''</td><td>{{{field|DUE_DATE|input type=datepicker|default=now}}}</td></tr><!--
 
 ASSIGNED_TO
-
---><tr><td>'''{{int:sa-actionees}}'''</td><td>{{{field|ASSIGNED_TO|input type=tokens|values from namespace=User|list}}}</td></tr><!--
+--><tr><td>'''{{int:sa-actionees}}'''</td><td>{{{field|ASSIGNED_TO|input type=tokens|values from category=LIMS/Person/User|list|mapping property=Display title of}}}</td></tr><!--
 
 LABEL
 
